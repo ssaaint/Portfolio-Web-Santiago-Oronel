@@ -1,0 +1,16 @@
+{
+  "name": "Santiago Oronel Portfolio",
+  "short_name": "Santiago Oronel",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#08080d",
+  "theme_color": "#08080d",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "64x64",
+      "type": "image/svg+xml"
+    }
+  ]
+}
+
