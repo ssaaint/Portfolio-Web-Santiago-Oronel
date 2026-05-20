@@ -1,2 +1,12 @@
 # Curriculum-Web-Santiago-Oronel
-Mi curriculum para poder conseguir algun trabajo en el mundo que me interesa.
+Portfolio personal desarrollado con React y Vite.
+Proyecto creado para mostrar mi progreso en programación, mis proyectos y seguir aprendiendo desarrollo web y backend.
+
+## Topics
+react
+vite
+tailwindcss
+portfolio
+javascript
+frontend
+web-development
