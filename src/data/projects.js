@@ -1,6 +1,6 @@
 export const projects = [
   {
-    id: 'narraluna',
+    id: 'umbral-de-historias',
     status: 'active',
     titleKey: 'projects.items.narraluna.title',
     descriptionKey: 'projects.items.narraluna.description',
@@ -11,8 +11,8 @@ export const projects = [
       'projects.items.narraluna.details.3',
       'projects.items.narraluna.details.4',
     ],
-    tech: ['React', 'Rutas', 'Firebase', 'JavaScript', 'Organizacion'],
-    repository: 'https://github.com/ssaaint/narraluna',
+    tech: ['React', 'React Router', 'Firebase', 'JavaScript', 'CSS'],
+    repository: 'https://github.com/ssaaint/Umbral-de-Historias',
     demo: null,
   },
 ];
