@@ -124,25 +124,25 @@ export const es = {
     },
   },
   projects: {
-    eyebrow: 'Proyectos',
-    title: 'Aprendiendo con un proyecto real.',
-    intro:
-      'Narraluna es el proyecto que estoy usando para practicar de verdad. Todavía está incompleto y va cambiando mientras aprendo, pero justamente esa es la idea: avanzar construyendo algo propio.',
-    items: {
-      narraluna: {
-        title: 'Narraluna',
-        description:
-          'Plataforma web en desarrollo y proyecto personal de aprendizaje. La uso para practicar estructura en React, rutas, integración con Firebase y una organización que pueda crecer de a poco.',
-        details: [
-          'Proyecto todavía sin terminar, en cambios constantes.',
-          'Práctica de rutas, pantallas y componentes en React.',
-          'Integración progresiva con Firebase para datos y autenticación.',
-          'Organización pensada para entender mejor cómo crece una app.',
-          'Sirve como práctica real para mejorar programación paso a paso.',
-        ],
-      },
+  eyebrow: 'Projects',
+  title: 'Building through real projects.',
+  intro:
+    'Umbral de Historias is the main project I am building to practice real-world development. It is a reading platform where I work on authentication, routing, Firebase, user profiles, content publishing and scalable app structure.',
+  items: {
+    narraluna: {
+      title: 'Umbral de Historias',
+      description:
+        'A reading and storytelling platform built with React, Vite and Firebase. The project includes user authentication, editable profiles, story publishing, chapters, comments, likes, rankings, translations and reading progress.',
+      details: [
+        'Built as a real full-stack learning project with React and Firebase.',
+        'Includes authentication, protected user flows and Firestore data management.',
+        'Supports stories, chapters, comments, likes, rankings and user profiles.',
+        'Includes translation-focused features and reading progress tracking.',
+        'Designed to improve UI structure, routing, state management and scalable app organization.',
+      ],
     },
   },
+},
   contact: {
     eyebrow: 'Contacto',
     title: 'Si querés hablar o darme una oportunidad para aprender, podés escribirme.',
