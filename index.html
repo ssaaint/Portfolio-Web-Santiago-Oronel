@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="es" class="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#08080d" />
+    <meta
+      name="description"
+      content="Portfolio personal de Santiago Oronel, estudiante de programación en Buenos Aires. Proyectos web simples, aprendizaje y primeros pasos en desarrollo."
+    />
+    <meta name="author" content="Santiago Oronel" />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://santiago-oronel.vercel.app/" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Santiago Oronel | Desarrollador en formación" />
+    <meta
+      property="og:description"
+      content="Portfolio bilingue de Santiago Oronel, estudiante de programación que aprende desarrollo web y explora backend."
+    />
+    <meta property="og:image" content="/og-santiago-oronel.webp" />
+    <meta property="og:locale" content="es_AR" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Santiago Oronel | Desarrollador en formación" />
+    <meta
+      name="twitter:description"
+      content="Portfolio personal con proyectos web en desarrollo, aprendizaje de programación y diseño responsive."
+    />
+    <meta name="twitter:image" content="/og-santiago-oronel.webp" />
+
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <title>Santiago Oronel | Desarrollador en formación</title>
+    <script>
+      const storedTheme = localStorage.getItem('theme');
+      const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+      if (storedTheme === 'light' || (!storedTheme && !prefersDark)) {
+        document.documentElement.classList.remove('dark');
+      } else {
+        document.documentElement.classList.add('dark');
+      }
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
