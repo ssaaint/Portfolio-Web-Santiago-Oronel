@@ -124,21 +124,21 @@ export const es = {
     },
   },
   projects: {
-  eyebrow: 'Projects',
-  title: 'Building through real projects.',
+  eyebrow: 'Proyectos',
+  title: 'Construyendo con proyectos reales.',
   intro:
-    'Umbral de Historias is the main project I am building to practice real-world development. It is a reading platform where I work on authentication, routing, Firebase, user profiles, content publishing and scalable app structure.',
+    'Umbral de Historias es el proyecto principal que estoy desarrollando para practicar programación con un caso real. Es una plataforma de lectura donde trabajo autenticación, rutas, Firebase, perfiles de usuario, publicación de contenido y estructura escalable.',
   items: {
     narraluna: {
       title: 'Umbral de Historias',
       description:
-        'A reading and storytelling platform built with React, Vite and Firebase. The project includes user authentication, editable profiles, story publishing, chapters, comments, likes, rankings, translations and reading progress.',
+        'Plataforma de lectura e historias desarrollada con React, Vite y Firebase. Incluye autenticación de usuarios, perfiles editables, publicación de historias, capítulos, comentarios, likes, rankings, traducciones y progreso de lectura.',
       details: [
-        'Built as a real full-stack learning project with React and Firebase.',
-        'Includes authentication, protected user flows and Firestore data management.',
-        'Supports stories, chapters, comments, likes, rankings and user profiles.',
-        'Includes translation-focused features and reading progress tracking.',
-        'Designed to improve UI structure, routing, state management and scalable app organization.',
+        'Construido como proyecto full-stack real de aprendizaje con React y Firebase.',
+        'Incluye autenticación, flujos protegidos de usuario y manejo de datos con Firestore.',
+        'Permite historias, capítulos, comentarios, likes, rankings y perfiles de usuario.',
+        'Incluye funciones enfocadas en traducciones y seguimiento del progreso de lectura.',
+        'Diseñado para mejorar estructura UI, rutas, estado de la app y organización escalable.',
       ],
     },
   },
