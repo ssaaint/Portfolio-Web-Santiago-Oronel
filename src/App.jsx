@@ -1,6 +1,7 @@
 import { AnimatePresence, motion } from 'framer-motion';
 import { useEffect, useState } from 'react';
 import { Route, Routes, useLocation } from 'react-router-dom';
+import { Analytics } from '@vercel/analytics/react';
 import Navbar from './components/layout/Navbar.jsx';
 import Footer from './components/layout/Footer.jsx';
 import LoadingScreen from './components/ui/LoadingScreen.jsx';
@@ -42,6 +43,7 @@ function App() {
         </Routes>
       </AnimatePresence>
       <Footer />
+      <Analytics />
     </div>
   );
 }
